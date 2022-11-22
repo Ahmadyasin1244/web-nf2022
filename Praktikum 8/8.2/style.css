@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    background-color: yellow;
+    padding: 1rem;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+article{
+    flex: 2;
+}
+
+aside{
+    background-color: pink;
+    flex: 1;
+}
+
+
+nav{
+    background-color: aqua;
+    flex: 1;
+}
+
+footer{
+    background-color:yellow;
+    padding: 1rem;
+}
